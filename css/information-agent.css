@@ -1,0 +1,101 @@
+a{
+	color: #333;
+}
+a:hover{
+	text-decoration: none;
+}
+.header{
+	background: #222222;
+	color: #FFFFFF;
+}
+.header .navbar-inverse .navbar-nav>li>a{
+	color: #FFFFFF;
+}
+.header .navbar-toggle{
+	margin-top: 15px;
+}
+.header .navbar-brand{
+	height: auto;
+}
+.header .navbar-nav{
+	margin: auto 15px;
+}
+.header .living-new-tabs{
+	font-size: 1.3em;
+	font-weight: 500;
+}
+.header .living-new-tabs a{
+	line-height: 36px;
+	color: #FFFFFF;
+	border-bottom: 2px solid transparent;
+}
+.header .living-new-tabs a:hover,.header .living-new-tabs a:focus{
+	background-color: transparent;
+	color: #FD6601;
+	border-bottom: 2px solid #FD6601;
+}
+.header .navbar-inverse .navbar-nav>li>a:focus,.header  .navbar-inverse .navbar-nav>li>a:hover{
+	background-color: transparent;
+	color: #FD6601;
+}
+/*.header .living-new-tabs a:hover,.header .living-new-tabs a:focus{
+	
+}*/
+.header .living-new-public a{
+	padding: 6px 12px;
+	margin-top: 16px;
+	margin-left: 2em;
+}
+.header .living-new-public a:hover,.header .living-new-public a:focus{
+	background-color: #286090;
+}
+.header .collapse>ul>.living-new-log>a{
+	display: inline-block;
+	padding: 15px 5px;
+}
+.header .living-new-log a{
+	color: #FFFFFF;
+	line-height: 36px;
+	/*margin-left: 16em;*/
+}
+.header .living-new-log a:hover,.header .living-new-log a:focus{
+	background-color: transparent;
+	color: #FD6601;
+}
+
+.hot-search{
+	padding: 15px 10px;
+	background: #EEEFF1;
+}
+.hot-search .hot-agent .hot-agent-list{
+	padding-top: 5px;
+	margin-bottom: 0px;
+}
+.content .page-header{
+	margin: 0px;
+}
+.footer{
+	background: #2D2D2D;
+	color: #FFFFFF;
+}
+.footer .footer-header .footer-header-tabs>a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer .footer-header .footer-header-phone{
+	color: #FFFFFF;
+}
+.footer .footer-body .footer-body-tabs a{
+	background: #161616;
+	border-radius: 0px;
+	color: #FFFFFF;
+}
+.footer .footer-body .footer-body-tabs a:hover{
+	background: #515151;
+}
+.footer hr{
+	border-top-color: #343434;
+}
+.footer .row{
+	margin-top: 1.7em;
+}

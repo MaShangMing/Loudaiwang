@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+	<!--<![endif]-->
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<!-- Main Style Sheet -->
+		<!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+		<!--<link rel="stylesheet" type="text/css" href="" />
+		<link rel="stylesheet" type="text/css" href="" />-->
+		<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+		<!--<script>
+			window.jQuery || document.write('<script src="js/jquery-1.11.0.js"><\/script>')
+		</script>-->
+		
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script src="js/WritingPad.js"></script>
+    	<script src="js/jq-signature.js"></script>
+    	<!--<script src="js/bootstrap.min.js"></script>-->
+		<!--<script src="js/main.js"></script>-->
+
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<!--<script>
+			var _gaq = [
+				['_setAccount', 'UA-XXXXX-X'],
+				['_trackPageview']
+			];
+			(function(d, t) {
+				var g = d.createElement(t),
+					s = d.getElementsByTagName(t)[0];
+				g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+				s.parentNode.insertBefore(g, s)
+			}(document, 'script'));
+		</script>-->
+		<!-- Modernizr -->
+		<!--<script src="js/vendor/modernizr-2.6.2.min.js"></script>-->
+		<!-- Respond.js for IE 8 or less only -->
+		<!--[if (lt IE 9) & (!IEMobile)]>
+            <script src="js/vendor/respond.min.js"></script>
+        <![endif]-->
+        <style type="text/css">
+        	
+        	
+        </style>
+	</head>
+	<body>
+		<!--<a href="##" data-toggle="modal" data-target="#mymodal">签名</a>-->
+		<script>
+	        $(function () {
+	            var wp = new WritingPad();
+	        });
+    	</script>
+    	<!--<div class="container">
+    		<div class="row">
+    			<div class="canvasDiv col-sm-12">
+			        <div id="editing_area">
+			            <canvas  id="canvasEdit"></canvas>
+			        </div>
+			    </div>
+			    <div class="imgDiv">
+			        <span id="sign_show"></span>
+			    </div>
+			
+			    <div class="btnDiv col-sm-12 text-center">
+			        <a id="sign_clear" class="btn btn-danger">清除</a>
+			        <a id="sign_ok" class="btn btn-primary">确认</a>
+			    </div>
+    		</div>
+    	</div>-->
+	
+
+    
+	
+	<!--<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/esign.js"></script>
+	<script type="text/javascript" src="js/canvas_auto_resize.js"></script>-->
+		 
+	
+	<!--<script type="text/javascript">
+	    $(function(){
+	        //初始化动作，根据DOM的ID不同进行自定义，如果不写则内部默认取这四个
+	        $().esign("canvasEdit", "sign_show", "sign_clear", "sign_ok");
+	    });
+	</script>	-->
+	<script type="text/javascript">
+		$(function(){
+			if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+			    horizontalScreen('js-signature');
+			} else {
+			    
+			}
+		})
+	function horizontalScreen(className){  
+	    // transform 强制横屏  
+	    var conW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;  
+	    var conH = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;  
+	    // transform: rotate(90deg); width: 667px; height: 375px;transform-origin:28% 50%;  
+	    //var iosTopHe = 0;//若有其他样式判断，写于此  
+	      
+	    $('.js-signature').css({  
+	        "transform":"rotate(90deg) translate("+((conH-conW)/2)+"px,"+((conH-conW)/2)+"px)",  
+	        "width":conH+"px",  
+	        "height":conW+"px",  
+	        //"margin-top":iosTopHe+"px",  
+	        // "border-left":iosTopHe+"px solid #000",  
+	        "transform-origin":"center center",  
+	        "-webkit-transform-origin": "center center"  
+	    });  
+	}  
+	</script>
+	</body>
+</html>

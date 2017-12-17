@@ -1,0 +1,10 @@
+.header .collapse>ul>.qy-log>a{
+	display: inline-block;
+	padding: 15px 5px;
+}
+.body .panel,.container{
+	width: 960px;
+}
+.body .panel pre{
+	height: 480px;
+}

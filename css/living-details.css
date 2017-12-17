@@ -1,0 +1,208 @@
+/*common*/
+body,html{
+    font-family: "微软雅黑","Microsoft YaHei";
+}
+a{
+    color: #333;
+}
+a:hover{
+    color: #333;
+    text-decoration: none;
+}
+a:focus{
+    outline: none;
+    outline-offset: 0;
+}
+.padding5{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+/*header*/
+.header{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.header .navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+.header .navbar-default .navbar-nav>li>a {
+     color: #333;
+}
+@media (min-width: 768px) {
+    .header .navbar {
+        border-radius: 0;
+    }
+}
+.header .container-fluid {
+    padding-left: 0px;
+}
+.header .navbar-brand{
+    margin-bottom: 1em;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: left;
+        margin-top: 0.8em;
+        margin-left: 1em;
+    }
+}
+.header .navbar-toggle{
+    margin-top: 18px;
+}
+.header .living-new-tabs{
+    font-size: 1.15em;
+    font-weight: 600;
+    /*margin-left: 0.5em;*/
+}
+.header .living-new-tabs a{
+    /*color: #FFFFFF;*/
+    border-bottom: 2px solid transparent;
+}
+.header .navbar-default .navbar-nav>li>a {
+    color: #333;
+}
+.header .navbar-default .navbar-nav>li>a:focus,.header .navbar-default .navbar-nav>li>a:hover {
+    color: #FD6601;
+    background-color: transparent;
+}
+.header .navbar-default .navbar-nav>.active>a,.header .navbar-default .navbar-nav>.active>a:focus,.header .navbar-default .navbar-nav>.active>a:hover {
+    color: #FD6601;
+    background-color: transparent;
+}
+.header .living-new-tabs a:hover,.header .living-new-tabs a:focus{
+    background-color: transparent;
+    color: #FD6601;
+    border-bottom: 2px solid #FD6601;
+}
+.header .navbar-nav .active a{
+    background-color: transparent;
+    color: #FD6601;
+    border-bottom: 2px solid #FD6601;
+}
+.header .collapse>ul>.living-new-log>a{
+    display: inline-block;
+    padding: 15px 5px;
+}
+.header .living-new-log{
+    /*color: #FFFFFF;*/
+    margin-left: 10em;
+}
+.header .living-new-log a:hover,.header .living-new-log a:focus{
+    background-color: transparent;
+    color: #FD6601;
+}
+.header .living-new-public a{
+    padding: 6px 12px;
+    margin-top: 8px;
+    margin-left: 2em;
+}
+.header .btn-warning {
+    color: #fff;
+    background-color: #FD6601;
+    border-color: #FD6601;
+}
+.header .living-new-public a:hover,.header .living-new-public a:focus{
+    background-color: transparent;
+}
+/*bread-crumbs-navigation*/
+.bread-crumbs-navigation{
+    margin: 10px 0 15px 0;
+}
+.bread-crumbs-navigation .breadcrumb{
+    background-color: #ffffff;
+}
+.bread-crumbs-navigation .breadcrumb a{
+    color: #333;
+}
+.bread-crumbs-navigation .current-position i{
+    background-image: url(../img/dingwei.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+/*banner*/
+.living-details-banner{
+    background-image: url("../images/living-details/banner_beijing.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.gray-back{
+	background: #F5F5F5;
+}
+
+.information-content .col-md-4{
+	border: 1px solid #F8F8F8;
+}
+.information-content label{
+	margin-bottom: 0px;
+}
+.content{
+	background: url(../img/detail-bac.jpg);
+}
+.content .navbar-default .navbar-nav>.active>a,
+.content .navbar-default .navbar-nav>.active>a:focus, 
+.content .navbar-default .navbar-nav>.active>a:hover{
+	background: #FF6801;
+	color: #FFFFFF;
+}
+.content .affix{
+	top: 0px;
+	z-index: 1000;
+}
+.content .affix>nav{
+	margin-bottom: 0px;
+}
+.content .scrollspy-nav{
+	/*width: 100%;*/
+	background: #FFFFFF;
+}
+.content .scrollspy-nav .navbar{
+	border-radius: 0px;
+}
+.content .information-label{
+	padding: 10px 25px;
+	text-align: center;
+	display: inline-block;
+	background: #F1EFF0;
+	color: #8E8C8D;
+	min-width: 110px;
+}
+.content .information-con{
+	display: inline-block;
+	text-align: center;
+	padding: 10px 25px 10px 25px;
+}
+.content table>thead>tr>th{
+	text-align: center;
+}
+.footer{
+	background: #2D2D2D;
+	color: #FFFFFF;
+}
+.footer .footer-header .footer-header-tabs>a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer .footer-header .footer-header-phone{
+	color: #FFFFFF;
+}
+.footer .footer-body .footer-body-tabs a{
+	background: #161616;
+	border-radius: 0px;
+	color: #FFFFFF;
+}
+.footer .footer-body .footer-body-tabs a:hover{
+	background: #515151;
+}
+.footer hr{
+	border-top-color: #343434;
+}
+.footer .row{
+	margin-top: 1.7em;
+}
+

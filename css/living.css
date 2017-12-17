@@ -1,0 +1,218 @@
+body,html{
+	font-family: "微软雅黑";
+}
+a{
+	color: #000000;
+}
+a:hover{
+	color: #000000;
+	text-decoration: none;
+}
+a:focus{
+	outline: none;
+}
+
+.header{
+	background: url(../img/banner.PNG) no-repeat;
+	background-size: 100% 100%;
+	
+}
+.header a{
+	color: #FFFFFF;
+}
+.header .living-tabs{
+	font-size: 1.15em;
+	font-weight: 600;
+	/*margin-left: 0.5em;*/
+}
+.header .living-tabs a{
+	color: #FFFFFF;
+	border-bottom: 2px solid transparent;
+}
+.header .living-tabs a:hover,.header .living-tabs a:focus{
+	background-color: transparent;
+	color: #FD6601;
+	border-bottom: 2px solid #FD6601;
+}
+.header .collapse>ul>.living-log>a{
+	display: inline-block;
+	padding: 15px 5px;
+}
+.header .living-log{
+	color: #FFFFFF;
+	margin-left: 16em;
+}
+.header .living-log a:hover,.header .living-log a:focus{
+	background-color: transparent;
+	color: #FD6601;
+}
+.header .living-public a{
+	padding: 6px 12px;
+	margin-top: 8px;
+	margin-left: 2em;
+}
+.header .living-public a:hover,.header .living-public a:focus{
+	background-color: #286090;
+}
+.header .living-banner .bg-text>h1{
+	font-weight: 600;
+	font-size: 3.2em;
+	letter-spacing: 0.1em;
+}
+.header .living-banner .banner-text>p{
+	line-height: 1.8em;
+	text-indent: 2em;
+}
+.body{
+	margin-top: 1em;
+	margin-bottom: 5em;
+}
+.body .popular-living-city>h3,.body .popular-city-hot>h3{
+	color: #ff6700;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.body .row{
+	margin-top: 1.2em;
+}
+.body .city-num{
+	color: #FF6F13;
+}
+.body .popular-city-content ul>li>a{
+	display: inline-block;
+}
+.body .popular-city-content ul>li>a:hover{
+	background: #666666;
+	color: #FFFFFF;
+}
+.footer{
+	background: #2D2D2D;
+	color: #FFFFFF;
+}
+.footer .footer-header .footer-header-tabs>a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer .footer-header .footer-header-phone{
+	color: #FFFFFF;
+}
+.footer .footer-body .footer-body-tabs a{
+	background: #161616;
+	border-radius: 0px;
+	color: #FFFFFF;
+}
+.footer .footer-body .footer-body-tabs a:hover{
+	background: #515151;
+}
+.footer hr{
+	border-top-color: #343434;
+}
+.footer .row{
+	margin-top: 1.7em;
+}
+
+
+
+/*popular-residence-developments*/
+.popular-residence-developments{
+
+}
+.popular-residence-developments .popular-residence-developments-title{
+    text-align: center;
+    margin-top: 40px;
+}
+.popular-residence-developments .switch{
+    float: right;
+    margin-bottom: 10px;
+}
+.popular-residence-developments .switch a{
+    color: #000;
+    text-decoration: none;
+}
+.popular-residence-developments .switch a:hover{
+    color: #f25824;
+}
+.popular-residence-developments .popular-residence-developments-title .popular-residence-developments-title-one{
+    position: relative;
+    color: #f5f5f5;
+}
+.popular-residence-developments .popular-residence-developments-title .popular-residence-developments-title-one h3{
+    font-weight: bold;
+}
+
+.popular-residence-developments .popular-residence-developments-title .popular-residence-developments-title-two{
+    text-align: center;
+    position: relative;
+    color: #ff6700;
+    top: -45px;
+}
+.popular-residence-developments .popular-residence-developments-title .popular-residence-developments-title-two h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+/*pic*/
+.popular-residence-developments-content-hover {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    /*cursor: default;*/
+}
+.popular-residence-developments-content-hover .hover-font{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.popular-residence-developments-content-hover img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+.popular-residence-developments-content-hover:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.popular-residence-developments-content-hover h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    margin-top: 30px;
+    transition-delay: 0.2s;
+}
+.popular-residence-developments-content-hover:hover h3 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+.popular-residence-developments-content-hover p{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    margin-top: 55px;
+}
+.popular-residence-developments-content-hover:hover p{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}

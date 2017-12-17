@@ -1,0 +1,107 @@
+.overseas-banner{
+	background: url(../img/overseas-banner.png);
+	background-size: cover;
+}
+.Waterfall .item .wf-title{
+	font-size: 1.15em;
+}
+.Waterfall .item .wf-action{
+	position: absolute;
+    z-index: 3;
+    top: 6px;
+    right: 6px;
+    left: 6px;
+}
+.like-active{
+	color: red;
+}
+.Waterfall .item .wf-action div{
+	position: absolute;
+}
+.Waterfall .item .wf-action .wf-btn{
+	height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    line-height: 1;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 0 12px;
+    height: 28px;
+    line-height: 28px;
+    background: #fff;
+    background: linear-gradient( #FAFAFA, #F2F2F2);
+    border: 1px solid #D9D9D9;
+    cursor: pointer;
+    text-decoration: none;
+    color: #444;
+    white-space: nowrap;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    /*user-select: none;*/
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    text-align: center;
+}
+.Waterfall .item .wf-action .red-btn{
+	background: #E53E49;
+    background: linear-gradient( #E53E49, #D43636);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 1px 0 rgba(255,255,255,.3);
+    text-shadow: 0 -1px 0 rgba(0,0,0,.1);
+    color: #fff;
+    border: 1px solid #C90000;
+}
+.Waterfall .item .wf-action .red-btn:hover{
+	background: linear-gradient( #F45D68, #E54646);
+    color: #fff;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 1px 0 rgba(255,255,255,.1);
+    border: 1px solid #C90000;
+}
+.Waterfall .item .wf-action .wf-right{
+	top: 0;
+    right: 0;
+}
+.Waterfall .item .wf-action .wf-right .like{
+	border: 1px solid rgba(0,0,0,.2)!important;
+}
+.Waterfall .item .wf-action .wf-left{
+	top: 0;
+    left: 0;
+}
+.Waterfall .attribution{
+	font-size: 13px;
+	padding: 0px 20px 10px 20px;
+	color: #999;
+	background: #FAFAFA;
+}
+.Waterfall .attribution .wf-img{
+	width: 34px;
+	height: 34px;
+	margin: 16px 0px 0px 0px;
+	display: block;
+	float: left;
+}
+.Waterfall .attribution .wf-img .avt{
+	width: 34px;
+	height: 34px;
+	display: block;
+}
+.Waterfall .attribution .wf-text{
+    margin-left: 34px;
+    /*height: 51px;*/
+    padding: 15px 0 0 10px;
+    line-height: 1.5;
+}
+.Waterfall .attribution .wf-text .inner{
+	/*height: 37px;*/
+    overflow: hidden;
+}
+.Waterfall .attribution .wf-text .inner .line{
+	display: inline-block;
+    width: 100%;
+}
+.Waterfall .attribution .wf-text .inner .line .publisher{
+	float: left;
+    max-width: 120px;
+    white-space: nowrap;
+    max-height: 80px;
+    overflow: hidden;
+}

@@ -1,0 +1,119 @@
+
+.padding0{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.padding-right0{
+	padding-right: 0px;
+}
+.padding-left0{
+	padding-left: 0px;
+}
+
+.header{
+	background: #222222;
+	color: #FFFFFF;
+}
+.header .profile-menu a{
+	color: #B6B6B6;
+}
+.header .nav>li>a:focus, .header .nav>li>a:hover{
+	background-color: transparent;
+}
+.center-banner{
+	background: url(../img/center-banner.png);
+}
+@media(min-width: 768px) {
+	.navbar{
+		border-radius: 0px;
+	}
+}
+@media(min-width: 1200px) {
+	.container{
+		width: 1230px;
+	}
+}
+.Navigation .navbar{
+	background: #FFFFFF;
+	border-color: #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.nav li.center-nav-tabs>a{
+	color: #666666;
+	font-size: 1.15em;
+	padding: 15px 30px;
+	border-bottom: 2px solid transparent;
+}
+.nav li.center-nav-tabs>a:hover,.nav li.center-nav-tabs>a:focus{
+	color: #FF6702;
+	border-bottom: 2px solid #FF6702;
+}
+
+.center-content{
+	padding: 20px 0px;
+	background: #F6F6F6;
+}
+.center-content .nav-tabs{
+	border: none;
+}
+.center-content .nav-tabs>li>a{
+	margin-right: 0px;
+	color: #676767;
+	font-size: 1.15em;
+	padding: 20px 28px;
+}
+.center-content .sidenav{
+	background: #F1F1F1;
+}
+.center-content .sidenav .side-title{
+	font-size: 1.5em;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	color: #676767;
+}
+.center-content .nav-tabs>li.active>a, .center-content .nav-tabs>li.active>a:focus, .center-content .nav-tabs>li.active>a:hover{
+	border: none;
+}
+.center-content .sidenav li.active,.center-content .sidenav li:hover{
+	border-left: 5px solid #FF6801;
+	/*background: #FFFFFF;*/
+}
+.center-content .sidenav li.active a,.center-content .sidenav li a:hover{
+	color: #FF6801;
+	background: #FFFFFF;
+}
+.center-content .nav-pills>li>a{
+	border-radius: 0px;
+}
+.center-content .center-con{
+	background: #FFFFFF;
+}
+.center-con{
+	font-size: 1.15em;
+}
+
+.footer{
+	background: #2D2D2D;
+	color: #FFFFFF;
+}
+.footer .footer-header .footer-header-tabs>a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer .footer-header .footer-header-phone{
+	color: #FFFFFF;
+}
+.footer .footer-body .footer-body-tabs a{
+	background: #161616;
+	border-radius: 0px;
+	color: #FFFFFF;
+}
+.footer .footer-body .footer-body-tabs a:hover{
+	background: #515151;
+}
+.footer hr{
+	border-top-color: #343434;
+}
+.footer .row{
+	margin-top: 1.7em;
+}
